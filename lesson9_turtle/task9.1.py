@@ -2,11 +2,11 @@ import turtle
 
 turtle.setup(600,600) #создает поле 600*600 пикселей
 turtle.shape("turtle") #вид черепашки
-turtle.dot (50, "red") #нарисовать круг
+turtle.dot (50, "red") #нарисовать закрашенный круг
 
 turtle.up() #поднимает перо
 
-turtle.goto(-150,150) #идет в конкретную точку с координатами
+turtle.goto(-150,150) #идет в конкретную точку c координатами
 
 turtle.down() #опускает перо
 
@@ -15,7 +15,7 @@ turtle.pensize(5) #толщина линии
 turtle.right(90) #поворот на права
 turtle.forward(100) #передвинутся на 100 пикселей прямо
 
-turtle.clear() #стереть все с экрана
+turtle.clear() #стереть все c экрана
 
 turtle.color("red") #меняет цвет пера
 

@@ -5,7 +5,7 @@ turtle.shape("turtle") #вид черепашки
 turtle.up() #поднимает перо
 
 
-turtle.goto(-200,-200) #идет в конкретную точку с координатами
+turtle.goto(-200,-200) #идет в конкретную точку c координатами
 turtle.down() #опускает перо
 for i in range (74):
     turtle.left(90)

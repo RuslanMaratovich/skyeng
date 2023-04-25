@@ -6,7 +6,8 @@ password = input('пароль: ')
 email = input('Почта: ')
 phone = input('Телефон: ')
 
-x = [len(login) > 6, len(password) > 6, '@' in email, phone[0: 2] == '+7' or phone[0] == '8']
+x = [len(login) > 6, len(password) > 6, '@' in email,
+     phone[0: 2] == '+7' or phone[0] == '8']
 if all(x):
     print('Все введено верно')
 else:
