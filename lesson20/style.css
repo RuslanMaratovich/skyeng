@@ -1,0 +1,175 @@
+﻿header {
+	background-color: #00008b;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.header_left {
+	padding-left: 10%;
+}
+
+.header_right {
+	padding-right:10%;
+}
+
+.header {
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	height:100%;
+	color:white;
+	width:100%;
+}
+
+
+body {
+	background-color: #113477;
+}
+
+a {
+    color: black; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+
+.wrapper_top {
+	display:flex;
+	justify-content:center;
+	margin-top: 50px;
+	align-items: center;
+}
+
+.top_text {
+	font-size:75px;
+	font-weight:bold;
+	line-height:75px;
+	text-align:center;
+	
+	padding-left:30px;
+	padding-right: 30px;
+	color:white;
+}
+
+.top_block {
+	background-color: white;
+	border-radius:15px;
+	margin-top:15px;
+}
+
+.top_block h1, h2{
+	color:blue;
+	font-weight:bold;
+	font-size:25px;
+	margin: 0px;
+	
+}
+
+.description_left {
+	width: 20%;
+	color:white;
+	font-size:35px;
+	font-weight:bold;
+	margin-right:15px;
+}
+
+.description_right {
+	background-color:white;
+	color:blue;
+	border-radius:15px;
+	font-size:35px;
+	font-weight:bold;
+	margin-left:15px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+
+
+.catalog {
+	margin-top: 150px;	
+}
+
+.catalog_panel {
+	margin-top:50px;
+	background-color: #FFF9DA;
+	max-width: 950px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding-bottom:20px;
+	padding-top:20px;
+	border-radius:15px;
+}
+
+.line {
+	max-width: 400px;
+	width:350px;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 25px;
+	margin-left:25px;
+	margin-right:25px;
+	padding-top:5px;
+}
+
+.line_top {
+	max-width: 800px;
+	width:750px;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 25px;
+	margin-left:25px;
+	margin-right:25px;
+	padding:15px;
+
+	margin-top:15px;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+.orig {
+	color: #DC143C;
+}
+
+
+.form_wrapper {
+	display:flex;
+	justify-content: center;
+	COLOR: WHITE;
+	margin-top:50px;
+}
+
+.forma {
+	border: 1px solid red;
+	max-width: 600px;
+	width: 400px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.form_inp {
+	background-color: #e6e6e6;
+	padding: 10px;
+	width: 90%;
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+
+button {
+	padding: 9px;
+	color: white;
+	font-size: 14px;
+	background: #60e6c5;
+	border: 1px solid black;
+}
+
+footer {
+	display: flex;
+}
+
+.f_1 {
+	margin-left:10px;
+	margin-right:10px;
+}
+

@@ -27,3 +27,17 @@ elif a==3:
         print('Компьютер выбрал бумагу - ничья')
 else: print('вы мухлюете')
 
+
+# import random
+# print("1=камень,2=бумага,3=ножницы")
+# a = int(input("Ваш выбор :"))
+# b = random.randint(1,3)
+# print("Компьютер выбрал:",b, end=' - ')
+# if a==b:
+#     print('Ничья')
+# elif (a==1 and b==3) or (a==2 and b==1) or (a==3 and b==2):
+#     print("ваша победа!")
+# elif (a==1 and b==2) or (a==2 and b==3) or (a==3 and b==1):
+#     print("компьютер победил")
+# else:
+#     print("вы мухлюете")

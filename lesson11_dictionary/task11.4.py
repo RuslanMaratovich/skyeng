@@ -16,6 +16,7 @@ for i in range(5):
         else:
             break
     k = turtle.position()
+    print(k)
     r = len(col) - 1
     l = random.randint(0, r)
     turtle.color(col[l])

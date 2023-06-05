@@ -6,6 +6,6 @@ list.sort()
 file = open('sort.txt', 'w+', encoding="utf-8")
 
 for i in list:
-    file.write(i+'\n')
+    file.write(str(i)+'\n')
 
 file.close()

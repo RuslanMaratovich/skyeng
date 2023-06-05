@@ -1,16 +1,19 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+import turtle
+import random
+#turtle.setup(500,500)
+turtle.pensize(2)
+colors = [ 'red',  'black', 'aqua', 'pink']
+dlina =[""]
+turtle.up()
+turtle.goto(-200,0)
+turtle.down()
+turtle.left(90)
+x = -200
+for i in range(10):
+    r = random.randint(0, len(colors) - 1)
+    turtle.color(colors[r])
+    t = random.randint(10,50)
+    turtle.goto(x,200)
+    x = x + t
+    turtle.goto(x,0)
+turtle.mainloop()
