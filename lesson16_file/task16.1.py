@@ -10,7 +10,13 @@ import os
 
 # os.remove() - удаляет конечны файл
 
-shutil.move(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory1\test.txt', 'C:\\Users\\Ruslan\\PycharmProjects\\skyeng\\lesson16_file\\directory2\\test.txt')
-shutil.copy(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory2\test.txt', 'C:\\Users\\Ruslan\\PycharmProjects\\skyeng\\lesson16_file\\directory3\\test.txt')
-os.remove(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory3\test.txt')
-shutil.rmtree(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory3')
+
+# shutil.move(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory1\test.txt',
+#             'C:\\Users\\Ruslan\\PycharmProjects\\skyeng\\lesson16_file\\directory2\\test.txt')
+# shutil.copy(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory2\test.txt',
+#             'C:\\Users\\Ruslan\\PycharmProjects\\skyeng\\lesson16_file\\directory3\\test.txt')
+# os.remove(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory3\test.txt')
+# shutil.rmtree(r'C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory3')
+e = input('введите имя файла:')
+c = r"C:\Users\Ruslan\PycharmProjects\skyeng\lesson16_file\directory1\\" + e
+shutil.copy(c, 'C:\\Users\\Ruslan\\PycharmProjects\\skyeng\\lesson16_file\\directory2')
